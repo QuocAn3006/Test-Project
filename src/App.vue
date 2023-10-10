@@ -26,7 +26,7 @@ const checkTaskAlerts = () => {
   if (alarm > currentTime) {
     const timeDiff = alarm - currentTime
     setTimeout(() => {
-      toast.success('task')
+      toast.success('task done')
     }, timeDiff)
   }
 }
